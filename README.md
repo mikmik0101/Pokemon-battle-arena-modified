@@ -2,7 +2,7 @@
 
 https://www.pokemon-battle-arena.com/
 
-A browser-based Pokémon battle game. 
+A browser-based Pokémon battle game made by jegan and Modified by Mick. 
 
 ## Tech Stack
 * [Nuro](https://github.com/jegan321/nuro) for the front-end
