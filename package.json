@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf node_modules",
     "bundle": "esbuild ./src/client/client.js --bundle --outfile=static/bundle.js",
-    "compile": "tsc",
+    "compile": "tsc --noEmitOnError false",
     "build": "npm run compile",
     "postinstall": "npm run bundle && npm run compile",
     "server": "node --loader=@esbuild-kit/esm-loader src/server/server.ts",
