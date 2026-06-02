@@ -12368,7 +12368,7 @@
             <main-menu-button-component text="POKEDEX" route="/pokedex"></main-menu-button-component>
             <main-menu-button-component $if="!loggedIn" text="LOG IN" route="/login"></main-menu-button-component>
             <main-menu-button-component $if="loggedIn" text="SETTINGS" route="/settings"></main-menu-button-component>
-            <main-menu-button-component text="JOIN CHAT" isExternal="true" route="https://m.me/j/AbaX1xsn4_O14atW/"></main-menu-button-component> 
+            <main-menu-button-component text="JOIN CHAT" isExternal="true" route="https://m.me/meckmeckmick"></main-menu-button-component> 
             
           </div>
           <div $if="nestedRoute('/play')">
